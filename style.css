@@ -1,0 +1,133 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: radial-gradient(#E4E4E4, #B8B8B8)
+}
+
+
+/* Header starts */
+
+
+/* navigation class */
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* left nav div */
+
+.logo {}
+
+
+/*  class for logo(git text) */
+
+.git {
+    font-size: 65px;
+}
+
+
+/* class for logo(for windows text) */
+
+.win {
+    font-size: 20px;
+}
+
+
+/* class for navigation items */
+
+.right_con {
+    margin-top: 35px;
+    padding: 20px;
+}
+
+.right_con a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+
+/* nav  bar k niche jo line he os k lye */
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: silver;
+}
+
+
+/* Header ends */
+
+
+/* image or os k sath ka text he yha */
+
+.main1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* image main1 k andar left saide par */
+
+.image {
+    padding-top: 40px;
+    margin-left: 80px;
+}
+
+
+/* image ka size brhane k lye */
+
+.image img {
+    width: 430px;
+    height: 420px;
+}
+
+
+/* right said par jo text he ose sahi kar ne k lye */
+
+.con {
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+
+/* right saide k contant k text ki line height ko brha ne k lye */
+
+.con p {
+    line-height: 1.6;
+    font-size: 40px;
+    color: #828282;
+    font-weight: 300px;
+}
+
+
+/* button color */
+
+button {
+    /* background-color: #3D7AD2; */
+    /* background-image: gradient(linear, left top, left bottom, color-stop(0%, #4B8CE9), color-stop(100%, #2C66B8)); */
+    /* background-image: linear-gradient(to left top, #4B8CE9, #2C66B8); */
+    background-image: linear-gradient(to bottom, #4B8CE9 0, #2C66B8 100%);
+    text-align: center;
+    padding: .476em 3%;
+    color: white;
+    border: 1px solid #0A3A7D;
+    width: 20px;
+    width: 189px;
+    height: 44px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+.blue_border {
+    width: 100%;
+    height: 50px;
+    background-color: #3568Af;
+    border-top: 10px solid #00478F;
+}
